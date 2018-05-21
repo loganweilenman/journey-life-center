@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const ListOfTiles = ({ data }) => {
-    console.log(data.items.collection);
     var items = data.items.collection.map(function(item, key) {
         return (
             <div className="col-12 col-lg-4 mb-15" key={key}>
