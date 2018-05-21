@@ -18,6 +18,7 @@ const Layout = ({ children, data }) => (
     <div>
       {children()}
     </div>
+    <div className="bg"></div>
   </div>
 )
 

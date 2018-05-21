@@ -5,7 +5,6 @@ import SectionWithImage from '../components/sectionWithImage/sectionWithImage'
 import ListOfTiles from '../components/listOfTiles/listOfTiles'
 
 const IndexPage = (props) => {
-  console.log(props);
   var sections = props.data.contentfulPages.sections.map(function(section) {
     return (
       <div key={section.id}>
